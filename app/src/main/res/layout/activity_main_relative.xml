@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- A TextView aligned at the top and start of the parent layout -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_message"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- A Button placed below the TextView and aligned to the start of the parent layout -->
+    <Button
+        android:id="@+id/clickHereButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonText"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true" />
+
+    <!-- A CheckBox placed to the end of the Button -->
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CheckboxText"
+        android:layout_toEndOf="@+id/clickHereButton"
+        android:layout_alignBottom="@+id/clickHereButton" />
+
+    <!-- An ImageButton aligned at the end of the parent layout and below the Button -->
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:layout_below="@+id/clickHereButton"
+        android:layout_alignParentEnd="true" />
+
+    <!-- A Switch placed to the start of the ImageButton and below the CheckBox -->
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SwitchText"
+        android:layout_below="@+id/checkBox1"
+        android:layout_toStartOf="@+id/imageButton1" />
+
+    <!-- An EditText aligned at the bottom of the parent layout and spans the width of the layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/EditTextHint"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

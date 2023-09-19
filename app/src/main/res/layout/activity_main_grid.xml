@@ -1,0 +1,69 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    tools:context=".MainActivity">
+
+    <!-- Row 1, Column 1 -->
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/hello_message"
+        android:textSize="30dp"
+        android:layout_columnSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Row 2, Column 1 -->
+    <Button
+        android:id="@+id/clickHereButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/ButtonText"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Row 2, Column 2 -->
+    <CheckBox
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/CheckboxText"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Row 3, Column 1 -->
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/flag"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Row 3, Column 2 -->
+    <Switch
+        android:id="@+id/switchButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/SwitchText"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+
+    <!-- Row 4, Column 1 -->
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:hint="@string/EditTextHint"
+        android:layout_columnSpan="2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill" />
+</GridLayout>
