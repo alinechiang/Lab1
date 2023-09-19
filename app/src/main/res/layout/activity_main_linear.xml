@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="fill"
-            android:text="@string/SwitchText" />
+            android:text="@string/SwitchTextt" />
     </LinearLayout>
 
     <!-- Row 4 with a single EditText that takes up the whole width -->

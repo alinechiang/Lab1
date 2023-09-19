@@ -4,7 +4,7 @@
     <string name="hello_message">私のGUIを見てください！</string>
     <string name="ButtonText">ここをクリック!</string>
     <string name="CheckboxText">これをチェックしてください!</string>
-    <string name="SwitchText">オン/オフを切り替えます</string>
+    <string name="SwitchTextt">オン/オフを切り替えます</string>
     <string name="EditTextHint">ここに入力</string>
     <string name="toast_message">詳細はこちら</string>
 </resources>
