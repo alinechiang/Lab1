@@ -3,7 +3,7 @@
     <string name="hello_message">Look at my GUI</string>
     <string name="ButtonText">CLICK HERE</string>
     <string name="CheckboxText">Check this out!</string>
-    <string name="SwitchTextt">Switch on/off</string>
+    <string name="SwitchText">Switch on/off</string>
     <string name="EditTextHint">Type here</string>
     <string name="toast_message">Here is more information</string>
 </resources>
